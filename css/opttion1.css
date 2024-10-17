@@ -1,0 +1,267 @@
+body{
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+.header-bg {
+  background-color: #B61710;
+}
+.header{
+  color: white;
+}
+.text-right{
+  font-size: 12px;
+}
+.contenttop-txt a{
+  color:#343A40;
+  font-weight:  900;}
+.contenttop-txt {
+ color:#343A40;
+ font-size: 26px;
+}
+.contenttop-txt button{
+  width: 45px;
+  background-color: #BD1723;
+}
+.item button{
+  font-family: 'Noto Serif', serif;
+  font-weight: 700;
+}
+.x{
+  background-color: rgb(244, 242, 242);
+  color: white; 
+}
+.nav-item .nav-link{
+  color: white;
+}
+.home{
+  background-color:#DA251D;
+}
+.header-butten a{
+  font-size: 18px;
+}
+.icon-home{
+  color:  #FFFF00;
+  font-size: 25px;
+}
+.content-txt {
+  color:#343A40;
+}
+.content-txt p{
+  color:#343A40;
+}
+.text-coler{
+  color: #6C757D;
+}
+.right-txt{
+  font-size: 14px;
+  border-bottom-style: dashed;
+  border-color: #e8e8e8;
+}
+.txt-end{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 25px;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.icon{
+  background-color: #b6b4b4;
+  color: aliceblue;
+  padding: 1px 2px 1px 2px;
+}
+.text-danger{
+  font-size: 13px;
+}
+.footer-top p{
+  font-size: 13px;
+}
+.txt-top{
+  font-size: 22px;
+}
+.txt-top-color{
+  color:#888888;
+  font-size: 14px;
+}
+.footer-top h6{
+  font-size: 14px;
+  font-weight: bold;
+}
+.contact-info{
+   font-size: 14px;
+}
+.contentbutton-txt a{
+  color:#424242;
+  font-size: 20px;
+}
+.contentbutton-txt a:hover{
+  color: #B61710;
+}
+
+.item p{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 25px;
+  -webkit-line-clamp: 3;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  height: 80px;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+a:hover{
+  color: #B61710;
+}
+.item{
+  background:#343A40;
+  color: white;  
+  text-align: center;  
+  padding: 15px;
+  font-size: 17px;
+}  
+.custom-input{
+  background-color: white;
+}
+.owl-carousel {  
+  margin-top: 30px; 
+}  
+
+/* Style cho nút */  
+.owl-nav {  
+  color: aliceblue;
+  position: absolute;  
+  top: 50%;  
+  transform: translateY(-50%);  
+  width: 100%;  
+  display: flex;  
+  justify-content: space-between;  
+}  
+
+.owl-nav button {   
+  border: none;  
+  color: white;  
+  padding: 10px;  
+  cursor: pointer;  
+  border-radius: 50%;  
+  font-size: 20px; /* Kích thước biểu tượng */  
+}  
+.end-border{
+  border-right: 1px solid #dddfe0;
+}
+@media (max-width: 800px)
+{
+  .end-border{
+    border: none;
+  }
+}
+.box{
+  border: 1px solid #f0ecec;  
+}
+@media (max-width: 800px) {  
+  .box {  
+      border: none; /* Ẩn border */  
+  }  
+}  
+@media (max-width:800px)
+{
+  .left-col{
+    order: 1;
+    padding: 0px;
+    font-size: 10px;
+  }
+  .right-col{
+    order: 2;
+    padding: 0px;
+    font-size: 13px;
+  }
+}
+.container {  
+  display: flex;  
+  flex-direction: column; /* Mặc định xếp dọc */ 
+  justify-content: space-between;
+}  
+.container-1{  
+  display: flex;  
+  flex-direction: column; /* Mặc định xếp dọc */ 
+} 
+.box-1{
+  width: 100%;
+  border-bottom:  1px solid #f0ecec;
+}
+.box-2{
+  padding-top: 25px;
+  width: 100%;
+}
+@media (max-width: 800px) {  
+  .container ,.container-1{  
+      flex-direction: row; /* Xếp ngang khi màn hình nhỏ hơn 800px */  
+      padding: 0px;
+  }  
+  .box-1{
+    border-bottom: none;
+    padding: 5px;
+  }
+  .box-2{
+    padding: 5px;
+  }
+} 
+
+@media (max-width: 500px) {  
+  .container,.container-1 {  
+      flex-direction: column; /* Xếp ngang khi màn hình nhỏ hơn 800px */
+      padding: 0px;  
+  }  
+  .box-1{
+    padding: 0px;
+  }
+  .box-2{
+    padding: 0px;
+  }
+}   
+@media (max-width:500px)
+        {
+            .box-3{
+                display: none;
+            }
+        }
+@media (min-width:700px)
+{
+  .container-2{
+    display: none;
+    border: none;
+  }
+}
+@media (max-width:800px)
+{
+  .container-2{
+    font-size: 13px;
+  }
+}
+@media (max-width:800px)
+{
+  .container-3{
+    flex-direction: column;
+  }
+  .txt{
+    font-size: 14px;
+    text-align: center;
+  }
+  .box-4{
+    padding: 0px;
+  }
+}
+.text-bottom{
+  text-align: right;
+}
+@media (max-width:500px)
+        {
+            .text-bottom{
+                text-align: center;
+            }
+        }
+
+
